@@ -1,4 +1,4 @@
-package foreach;
+package presentation;
 
 public class StringTraining {
 
