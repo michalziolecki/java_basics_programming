@@ -12,8 +12,11 @@ public class Main {
         System.out.println("isPrime: " + resultTwo);
 
         Ex3 objectEx1 = new Ex3();
-        int ret = objectEx1.mulitplyTwoNumber(4, 5);
+        int ret = objectEx1.multiplyTwoNumber(4, 5);
         System.out.println("Multiplying: " + ret);
+
+        int[] table = {1, 2, 3};
+        Ex4.switchTable(table);
         
     }
 }
