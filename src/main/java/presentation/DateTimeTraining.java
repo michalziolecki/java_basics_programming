@@ -2,6 +2,7 @@ package presentation;
 
 import java.time.Clock;
 import java.time.Instant;
+
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
@@ -24,8 +25,8 @@ public class DateTimeTraining {
 
     public static void dateFormat(){
         LocalDateTime ldt = LocalDateTime.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/mm/dd");
-        System.out.println("Date in format yyyy/mm/dd: " + formatter.format(ldt));
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/mm/dd hh:mm:ss");
+        System.out.println("Date in format yyyy/mm/dd yyyy/mm/dd hh:mm:ss: " + formatter.format(ldt));
     }
 
     public static void main(String[] args){

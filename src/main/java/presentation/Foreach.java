@@ -10,10 +10,14 @@ public class Foreach {
 
     public static String ex2(String[] products){
         StringBuilder productsStr = new StringBuilder();
+        String lists = "";
         for (String product: products){
             // String builder szybciej wykonuje operacje niż zwykła kontatenacja plusem
             productsStr.append(product).append(", ");
+
+            lists += product;
         }
+        System.out.println(lists);
         return String.valueOf(productsStr);
     }
 
