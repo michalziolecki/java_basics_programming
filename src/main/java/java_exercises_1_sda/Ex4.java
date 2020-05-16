@@ -4,12 +4,12 @@ public class Ex4 {
     public static void switchTable(int[] table){
         if (table.length >=3) {
             System.out.println("Before");
-            tablesPrinter(table);
+            TablePrinter.tablesPrinter(table);
             int tmp = table[0];
             table[0] = table[2];
             table[2] = tmp;
             System.out.println("After");
-            tablesPrinter(table);
+            TablePrinter.tablesPrinter(table);
         } else {
             System.out.println("Too small table");
         }
