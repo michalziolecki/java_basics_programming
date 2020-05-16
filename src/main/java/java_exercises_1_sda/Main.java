@@ -32,5 +32,8 @@ public class Main {
         System.out.println("Ex6: ");
         int[] belowZeroTable = Ex6.minusCounter(minTop);
         TablePrinter.tablesPrinter(belowZeroTable);
+
+        System.out.println("Ex7: ");
+        Ex7.arithmeticSeries(7,1, 2);
     }
 }
