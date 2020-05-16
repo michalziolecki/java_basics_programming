@@ -28,7 +28,6 @@ public class Main {
         int[] minTop = {-2, -10, -4, 22, 15, 105};
         Ex5.topAndMin(minTop);
 
-
         System.out.println("Ex6: ");
         int[] belowZeroTable = Ex6.minusCounter(minTop);
         TablePrinter.tablesPrinter(belowZeroTable);
@@ -41,5 +40,10 @@ public class Main {
         int [] notArithmeticSeries = {2, 6, 10, 14, 18, 23};
         System.out.println(Ex8.isArithmeticSeries(arithmeticSeries)); // yes
         System.out.println(Ex8.isArithmeticSeries(notArithmeticSeries)); // no
+
+        System.out.println("Ex9: ");
+        System.out.println(Ex9.myModulo(11, 2));
+        System.out.println(Ex9.myModulo(10, 2));
+        System.out.println(Ex9.myModulo(17, 3));
     }
 }
