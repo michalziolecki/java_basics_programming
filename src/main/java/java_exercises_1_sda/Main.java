@@ -45,5 +45,9 @@ public class Main {
         System.out.println(Ex9.myModulo(11, 2));
         System.out.println(Ex9.myModulo(10, 2));
         System.out.println(Ex9.myModulo(17, 3));
+
+        System.out.println("Ex9: ");
+        int[] testTab = {1, 5, 7, 122, 45};
+        System.out.println("Assert true: " + Ex10.testMyModulo(testTab, 3));
     }
 }
