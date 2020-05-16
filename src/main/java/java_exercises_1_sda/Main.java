@@ -35,5 +35,11 @@ public class Main {
 
         System.out.println("Ex7: ");
         Ex7.arithmeticSeries(7,1, 2);
+
+        System.out.println("Ex8: ");
+        int[] arithmeticSeries = {2, 6, 10, 14, 18, 22};
+        int [] notArithmeticSeries = {2, 6, 10, 14, 18, 23};
+        System.out.println(Ex8.isArithmeticSeries(arithmeticSeries)); // yes
+        System.out.println(Ex8.isArithmeticSeries(notArithmeticSeries)); // no
     }
 }
