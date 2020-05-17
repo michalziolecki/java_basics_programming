@@ -51,5 +51,10 @@ public class Main {
         System.out.println("Ex9: ");
         int[] testTab = {1, 5, 7, 122, 45};
         System.out.println("Assert true: " + Ex10.testMyModulo(testTab, 3));
+
+
+        Student student = new Student(24,"Michal");
+        student.print();
+        student.getAge();
     }
 }
