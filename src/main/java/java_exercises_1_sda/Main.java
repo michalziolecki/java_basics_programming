@@ -34,7 +34,8 @@ public class Main {
         TablePrinter.tablesPrinter(belowZeroTable);
 
         System.out.println("Ex7: ");
-        Ex7.arithmeticSeries(7,1, 2);
+        int[] arithmeticSeriesTab = Ex7.arithmeticSeries(7,1, 2);
+        TablePrinter.tablesPrinter(arithmeticSeriesTab);
 
         System.out.println("Ex8: ");
         int[] arithmeticSeries = {2, 6, 10, 14, 18, 22};
