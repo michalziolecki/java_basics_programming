@@ -25,11 +25,12 @@ public class Main {
         System.out.println("Ex5.1: ");
         Ex5.topAndMin(table);
         System.out.println("Ex5.2: ");
-        int[] minTop = {-2, -10, -4, 22, 15, 105};
+        int[] minTop = {-2, -10, -4, 22, 15, 105, -20};
         Ex5.topAndMin(minTop);
 
         System.out.println("Ex6: ");
         int[] belowZeroTable = Ex6.minusCounter(minTop);
+//        int[] belowZeroTable = Ex6_2.countBelowZeroNumb(minTop);
         TablePrinter.tablesPrinter(belowZeroTable);
 
         System.out.println("Ex7: ");

@@ -9,10 +9,11 @@ public class Ex6 {
         }
 
         int[] out = new int[counter];
-        for (int i =0; i < out.length; i++ ){
-            int number = in[i];
+        int it = 0;
+        for (int number: in){
             if (number < 0){
-                out[i] = number;
+                out[it] = number;
+                it ++;
             }
         }
         System.out.println("Out table");
