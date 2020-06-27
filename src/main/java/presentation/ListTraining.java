@@ -25,7 +25,6 @@ public class ListTraining {
         System.out.println("size before: " + setOfNames.size());
         setOfNames.add("Michal");
         System.out.println("size before: " + setOfNames.size());
-
     }
 
     public static void exMap(){
@@ -34,9 +33,11 @@ public class ListTraining {
         mapOfNames.put(1, "Michal");
         mapOfNames.put(2, "Sara");
         mapOfNames.put(3, "Kajetan");
+        System.out.println(mapOfNames.get(3));
         System.out.println("size before: " + mapOfNames.size());
         mapOfNames.put(3, "Michal");
-        System.out.println("size before: " + mapOfNames.size());
+        System.out.println("size after: " + mapOfNames.size());
+        System.out.println(mapOfNames.get(3));
 
     }
 

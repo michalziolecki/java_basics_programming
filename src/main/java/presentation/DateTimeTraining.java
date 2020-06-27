@@ -25,8 +25,8 @@ public class DateTimeTraining {
 
     public static void dateFormat(){
         LocalDateTime ldt = LocalDateTime.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/mm/dd hh:mm:ss");
-        System.out.println("Date in format yyyy/mm/dd yyyy/mm/dd hh:mm:ss: " + formatter.format(ldt));
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm:ss");
+        System.out.println("Date in format yyyy/MM/dd hh:mm:ss: " + formatter.format(ldt));
     }
 
     public static void main(String[] args){
