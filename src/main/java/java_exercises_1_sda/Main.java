@@ -55,6 +55,7 @@ public class Main {
 
         Student student = new Student(24,"Michal");
         student.print();
+
         student.getAge();
     }
 }

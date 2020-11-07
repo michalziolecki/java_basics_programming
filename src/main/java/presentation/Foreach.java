@@ -21,10 +21,9 @@ public class Foreach {
         return String.valueOf(productsStr);
     }
 
-
     public static void main(String[] args){
-        String[] table = {"Michal", "Sara", "Kamil", "Żaneta", "Łukasz"};
-        ex1(table);
+//        String[] table = {"Michal", "Sara", "Kamil", "Żaneta", "Łukasz"};
+//        ex1(table);
         String[] products = {"Ser", "Szynka", "Pomidor", "Bułka", "Szczypior"};
         String result = ex2(products);
         System.out.println(result);

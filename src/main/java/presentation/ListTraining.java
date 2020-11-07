@@ -41,6 +41,19 @@ public class ListTraining {
 
     }
 
+    public static void exampleListInterface(){
+        // interfejs a implementcja
+        // interfejs pozwala nam wiedziec jakie sa zawsze tak samo nazwane i dzialajace metody
+        List<String> asArray = new ArrayList<String>();
+        List<String> asReference = new LinkedList<>();
+
+
+        // Pozdro Mike
+        // List<String> asList = new List<>(){....}; nie mozna zrobic obiektu interfejsu wiec trzeba uzupelnic metody i jest to klasa anonimowa bez pliku i nazwy
+        List<String> myList = new MyList<>(); // = new List<>(){....}; anonimowa => skrócona wersja new MyList<>() w osobnym pliku
+        myList.size(); // trzeba napisac zawartosc
+    }
+
     public static void main(String[] args){
         System.out.println("List:");
         exList();
