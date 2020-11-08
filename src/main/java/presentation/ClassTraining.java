@@ -6,11 +6,12 @@ public class ClassTraining {
         Car myCar = new Car("Toyota", "Red",
                 "CB 007", 18); // wywolanie konstruktora przez 'new Car()'
         System.out.println(myCar); // konkretna instancja obiektu typu Car
-        System.out.println(myCar.type);
-        System.out.println(myCar.id);
-        System.out.println(myCar.sizeWheel);
-        System.out.println(myCar.color);
-        System.out.println(myCar.productionDate);
+        System.out.println(myCar.getType());
+        System.out.println(myCar.getId());
+        System.out.println(myCar.getSizeWheel());
+        System.out.println(myCar.getColor());
+        System.out.println(myCar.getProductionDate());
+//        System.out.println(myCar.);
         System.out.println(myCar.runCar());
 
         Car myCar2 = new Car("Toyota", "White",

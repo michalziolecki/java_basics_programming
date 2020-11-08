@@ -5,12 +5,13 @@ import java.time.LocalDate;
 
 public class Car { // extends Object
     // attributes / fields
-    String type; // = null;
-    String color; // = null;
-    String id;
-    Date productionDate;
+    // encapsulation - ochrona danych w klasie
+    private String type; // = null;
+    private String color; // = null;
+    private String id;
+    private Date productionDate;
     //    public int sizeWheel; // primitive type
-    Integer sizeWheel; // object type
+    private Integer sizeWheel; // object type
 
     public Car() { // constructor
     }
@@ -43,5 +44,27 @@ public class Car { // extends Object
 
     public String runCar(){
         return "\n ---\n" + this.type + " brum brum " + "\n ---\n" ;
+    }
+
+    // metody do odczytu danych czyli tzw gettry
+
+    public String getType() {
+        return this.type;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public Integer getSizeWheel() {
+        return sizeWheel;
+    }
+
+    public String getId() {
+        return id; // this.id
+    }
+
+    public Date getProductionDate() {
+        return productionDate;
     }
 }
