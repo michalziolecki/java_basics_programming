@@ -9,8 +9,7 @@ import java.time.ZoneId;
 public class Zad9 {
 
     public Zad9(){
-        showTime();
-    }
+        showTime();     }
 
     public static void showTime()
     {
