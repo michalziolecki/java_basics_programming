@@ -8,17 +8,19 @@ import java.time.ZoneId;
  */
 public class Zad9 {
 
-    ZoneId zone1 = ZoneId.of("Europe/Berlin");
-    private LocalTime localTime = LocalTime.now(zone1);
-
-    public Zad9()
-    {
+    public Zad9(){
         showTime();
     }
 
-    public void showTime()
+    public static void showTime()
     {
+        ZoneId zone1 = ZoneId.of("Europe/Berlin");
+        LocalTime localTime = LocalTime.now(zone1);
         System.out.println("localTime " + localTime);
+    }
+
+    public static void main(String[] args) {
+        showTime();
     }
 
 }
