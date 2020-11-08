@@ -13,6 +13,8 @@ public class ClassTraining {
         System.out.println(myCar.getProductionDate());
 //        System.out.println(myCar.);
         System.out.println(myCar.runCar());
+        myCar.setColor("Blue"); // zmieniam kolor na tej instancji auta !
+        System.out.println(myCar.getColor()); // auto ma nowy kolor !!
 
         Car myCar2 = new Car("Toyota", "White",
                 "CB 008", 15);

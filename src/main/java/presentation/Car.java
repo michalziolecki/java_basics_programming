@@ -6,12 +6,12 @@ import java.time.LocalDate;
 public class Car { // extends Object
     // attributes / fields
     // encapsulation - ochrona danych w klasie
-    private String type; // = null;
-    private String color; // = null;
-    private String id;
-    private Date productionDate;
+    private String type; // = null; // NEVER EDIT
+    private String color; // = null; // writing setter is correct
+    private String id; // writing setter is correct
+    private Date productionDate; // NEVER EDIT
     //    public int sizeWheel; // primitive type
-    private Integer sizeWheel; // object type
+    private Integer sizeWheel; // object type // writing setter is correct
 
     public Car() { // constructor
     }
@@ -48,7 +48,7 @@ public class Car { // extends Object
 
     // metody do odczytu danych czyli tzw gettry
 
-    public String getType() {
+    public String getType() {  // geter (czyli metoda zaczynajaca sie od get..) zwraca typ zgodny z typem pola
         return this.type;
     }
 
@@ -66,5 +66,20 @@ public class Car { // extends Object
 
     public Date getProductionDate() {
         return productionDate;
+    }
+
+    // do edycji pól / ustawiania atrybutów sluża tzw settery
+
+    // String color = "Blue"
+    public void setColor(String color) { // seter nic nie zwraca bo ustawia pole
+        this.color = color;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setSizeWheel(Integer sizeWheel) {
+        this.sizeWheel = sizeWheel;
     }
 }
