@@ -40,4 +40,8 @@ public class Car { // extends Object
     public String toString() {
         return "\n==== \n Car: " +  this.type + " \n id: " + this.id + "\n=== \n";
     }
+
+    public String runCar(){
+        return "\n ---\n" + this.type + " brum brum " + "\n ---\n" ;
+    }
 }

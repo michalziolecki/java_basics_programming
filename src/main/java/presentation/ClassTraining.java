@@ -11,9 +11,11 @@ public class ClassTraining {
         System.out.println(myCar.sizeWheel);
         System.out.println(myCar.color);
         System.out.println(myCar.productionDate);
+        System.out.println(myCar.runCar());
 
         Car myCar2 = new Car("Toyota", "White",
                 "CB 008", 15);
+
 
     }
 }
