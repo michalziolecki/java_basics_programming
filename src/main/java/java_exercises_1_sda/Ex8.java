@@ -11,8 +11,10 @@ public class Ex8 {
         int correctDiff = (tab[tab.length - 1] - tab[0]) / (tab.length - 1);
         for (int i = 1; i < tab.length; i++) {
             int r = tab[i] - tab[i-1];
-            if (r != correctDiff) isSeries = false;
-            break;
+            if (r != correctDiff) {
+                isSeries = false;
+                break;
+            }
         }
         return isSeries;
     }
