@@ -1,12 +1,14 @@
 package java_ex_2_mz;
 
+import presentation.Book;
+
 /**
  * Created by Michal Ziolecki.
  */
 public class Main9{
 
     public static void main(String[] args) {
-
+        Book book = new Book();
         //zad3
         //Scanner scanner = new Scanner( System.in );
         Zad9 statisticsOfInPut = new Zad9();
